@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="1"
+    android:background="@drawable/thing">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="36sp"
+        android:typeface="sans"
+        android:textAlignment="center"
+        android:text="Cadboro Bay, BC"
+        android:textColor="@android:color/black"
+        android:fontFamily="casual" />
+
+    <TextView
+        android:id="@+id/textprompt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="hi"
+        android:textSize="8sp"
+        android:textAlignment="center"
+        android:textStyle="normal|italic"
+        android:textColor="@android:color/black"
+        android:fontFamily="casual" />
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/msg"
+        android:textAlignment="center"
+        android:textSize="18sp" />
+
+</LinearLayout>
